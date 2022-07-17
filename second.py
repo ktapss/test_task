@@ -116,7 +116,7 @@ class Circular_queue_2:
 #Бытсрее остальных реализаций
 from collections import deque
 
-class CircularQueue():
+class Circular_Queue_3:
     def __init__(self, max_size):
         self.queue = deque(maxlen=max_size)
         self.max_size = max_size
