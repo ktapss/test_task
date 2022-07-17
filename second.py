@@ -114,6 +114,8 @@ class Circular_queue_2:
 #Добавление элемента за O(1)
 #Удаление элемента за O(1)
 #Бытсрее остальных реализаций
+from collections import deque
+
 class CircularQueue():
     def __init__(self, max_size):
         self.queue = deque(maxlen=max_size)
